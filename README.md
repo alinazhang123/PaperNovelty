@@ -18,15 +18,21 @@ My pipeline is listed below.
 Pipeline
 
 Get data ready: Data import and visualization
+
 Data exploration -- Topic modelling using LDA: Three topics were pre-defined (training and testing data)
+
 Word2vec: Used a pre-trained model for converting each abstract in the training and testing dataset into vectors
+
 Kmeans clustering:
 Used to cluster the paper abstracts in the training dataset into different categories (training data)
 Predicted the testing data based on the K-means model from the training dataset (testing data)
+
 PCA
 Reduced the data dimentionality from 300 features to 3 PCA components (training data)
 Validated the model by applying the same PCA transformation from the training dataset to the testing and validation datasets (testing & validation data)
 Plotted the data across the PCA components using K-means labels
+
 Similarity scores
 Calculated the cosine similarity scores between a randomly selected paper and all other papers within the same K-means cluster
+
 Identified whether there is a set of papers that show close semantic similarity with the given paper
