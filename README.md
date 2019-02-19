@@ -16,6 +16,7 @@ Finally, I picked a random paper from the testing dataset and checked whether th
 My pipeline is listed below.
 
 Pipeline
+
 Get data ready: Data import and visualization
 Data exploration -- Topic modelling using LDA: Three topics were pre-defined (training and testing data)
 Word2vec: Used a pre-trained model for converting each abstract in the training and testing dataset into vectors
